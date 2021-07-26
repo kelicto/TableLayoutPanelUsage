@@ -4,13 +4,13 @@ using System.Windows.Forms;
 
 using KeLi.HelloTableLayoutPanel.App.Utils;
 
-namespace KeLi.HelloTableLayoutPanel.App
+namespace KeLi.HelloTableLayoutPanel.App.Forms
 {
-    public partial class MainFrm : Form
+    public partial class MainForm : Form
     {
         private readonly StudentDataService _service;
 
-        public MainFrm()
+        public MainForm()
         {
             _service = new StudentDataService();
 

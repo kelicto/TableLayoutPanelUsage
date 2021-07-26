@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 
+using KeLi.HelloTableLayoutPanel.App.Forms;
+
 namespace KeLi.HelloTableLayoutPanel.App
 {
     public static class Program
@@ -12,7 +14,7 @@ namespace KeLi.HelloTableLayoutPanel.App
 
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new MainFrm());
+            Application.Run(new MainForm());
         }
     }
 }

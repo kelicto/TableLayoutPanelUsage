@@ -1,6 +1,6 @@
-﻿namespace KeLi.HelloTableLayoutPanel.App
+﻿namespace KeLi.HelloTableLayoutPanel.App.Forms
 {
-    partial class MainFrm
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -138,7 +138,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "MainFrm";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hello, TableLayoutePanel";
             this.Load += new System.EventHandler(this.MainForm_Load);
